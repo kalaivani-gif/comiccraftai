@@ -1,1 +1,0 @@
-Optional project logo can be placed here.
