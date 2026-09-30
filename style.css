@@ -1,0 +1,70 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6fb;
+  color: #20242c;
+}
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #eef2ff, #fff7ed);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container { width: min(900px, 92%); margin: 40px auto; }
+.wide { width: min(1000px, 94%); }
+.card {
+  background: white;
+  border-radius: 22px;
+  padding: 30px;
+  box-shadow: 0 12px 35px rgba(20, 30, 60, .10);
+}
+h1 { font-size: 42px; margin: 8px 0; }
+h2 { margin-top: 0; }
+.subtitle { color: #667085; font-size: 18px; }
+.badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: #111827;
+  color: white;
+}
+form { margin-top: 28px; }
+label { display: block; font-weight: 700; margin: 18px 0 7px; }
+input, textarea, select {
+  width: 100%;
+  padding: 13px 14px;
+  border: 1px solid #d0d5dd;
+  border-radius: 12px;
+  font-size: 15px;
+  background: white;
+}
+textarea { min-height: 110px; resize: vertical; }
+button, .button, .secondary {
+  display: inline-block;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 13px 18px;
+  border-radius: 12px;
+  font-weight: 700;
+  margin-top: 22px;
+}
+button, .button { background: #111827; color: white; }
+.secondary { background: #e9edf5; color: #20242c; }
+.hint { color: #667085; font-size: 13px; margin-top: 18px; }
+.topbar { display: flex; justify-content: space-between; align-items: center; gap: 20px; margin-bottom: 20px; }
+.panel { margin: 22px 0; }
+.panel img { width: 100%; max-height: 620px; object-fit: contain; background: #f8fafc; border-radius: 14px; }
+.scene { font-style: italic; color: #475467; }
+.download-box { text-align: center; margin-top: 30px; }
+.center { text-align: center; }
+.success { font-size: 64px; }
+@media (max-width: 650px) {
+  h1 { font-size: 32px; }
+  .topbar { flex-direction: column; align-items: flex-start; }
+}

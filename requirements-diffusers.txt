@@ -1,0 +1,6 @@
+# Optional: only install this if you want local Stable Diffusion.
+diffusers
+transformers
+torch
+accelerate
+safetensors
